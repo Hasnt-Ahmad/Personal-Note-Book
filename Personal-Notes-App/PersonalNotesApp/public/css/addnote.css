@@ -1,0 +1,43 @@
+.add-note h2{
+    text-align: center;
+    padding: 50px;
+}
+.add-note{
+    
+    background-color: white;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.ck-reset{
+    width: 80% !important;
+    padding-left: 40px !important;
+}
+.form-content{
+    padding-left: 30px;
+    display: flex;
+}
+label{
+    width: 100px;
+}
+.add-note input{
+    margin-left: 40px;
+}
+button{
+    margin-left: 40px;
+    border: none;
+    width: 30%;
+    height: 50px;
+    border: 1px solid rgb(2, 153, 2);
+    background-color: white;
+    color: rgb(2, 153, 2);
+    border-radius: 12px;
+
+}
+button:hover{
+    background-color: rgb(2, 153, 2);
+    color: white;
+    
+}

@@ -1,0 +1,68 @@
+.navbar{
+    background-color: white;
+    padding: 10px;
+}
+body{
+    background-color: rgb(246, 246, 246);
+}
+.search-note{
+
+    border: none;
+    background-color: rgb(246, 246, 246);
+    width: 190px;
+}
+.search-note:focus{
+    outline: none;
+}
+.search-div{
+    background-color: rgb(246, 246, 246);
+    width: 220px;
+    border-radius: 15px;
+    height: 35px;
+    padding: 2px;
+}
+.side-bar{
+    background-color: white;
+    border-radius: 12px;
+    height: 100vh;
+}
+.side-bar ul li{
+    list-style: none;
+}
+.side-bar ul li{
+    color: rgb(177, 177, 177);
+}
+
+.side-bar ul li a{
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+}
+.note-row{
+    padding: 50px;
+}
+.note-container {
+    position: relative; /* Relative positioning for absolute positioned delete button */
+    background-color: white; /* Set the initial background color */
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+}
+
+.note-container:hover {
+    background-color: #f0f0f0 !important; /* Change to a darker shade on hover */
+}
+
+.delete-button {
+    text-align: center;
+    display: block; /* Initially hide the delete button */
+    position: absolute;
+    top: 105%; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    transform: translateY(-50%);
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+}
+.delete-button:hover{
+    color: red;
+}
